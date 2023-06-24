@@ -16,17 +16,17 @@ export default class SimpleSlider extends Component {
         <Slider {...settings}>
           
          <div className=" text-[22px] ">
-            <h3>"วันนี้วันเสาร์"</h3>
+            <h3>&ldquo;วันนี้วันเสาร์&ldquo;</h3>
           </div>
           <div>
-            <h3 className=" text-[22px]">"พรุ่งนี้วันอาทิตย์"</h3>
+            <h3 className=" text-[22px]">&ldquo;พรุ่งนี้วันอาทิตย์&ldquo;</h3>
           </div>
           <div>
-            <h3 className="text-[22px]">"มะรืนวันจันทร์"</h3>
+            <h3 className="text-[22px]">&ldquo;มะรืนวันจันทร์&ldquo;</h3>
           </div>
           
         </Slider>
       </div>
     );
   }
-}
+}                                                                                                     
