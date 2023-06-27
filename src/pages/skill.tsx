@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Skill(){
     return(
-        <>
+        
         <div>
             
 <section className="flex flex-col lg:flex-row m-5 p-2 md:p-5">
@@ -55,16 +55,13 @@ export default function Skill(){
             <div className="flex w-full md:w-2/3 min-h-[60px]">
               <span
                 className="rounded-l p-3 text-center leading-10 mr-1 bg-orange-500 w-[50%] text-white"
-                >50%</span
-              >
+                >50%</span>
               <span
                 className="text-center p-3 leading-10 mr-1 bg-orange-300 w-[30%] text-black"
-                >30%</span
-              >
+                >30%</span>
               <span
                 className="text-center p-3 leading-10 mr-1 bg-gray-300 w-[10%] text-black"
-                >20%</span
-              >
+                >20%</span>
               <span
                 className="rounded-r p-3 text-center leading-10 mr-1 bg-gray-500 w-[2%] text-white"
               ></span>
@@ -77,16 +74,13 @@ export default function Skill(){
             <div className="flex w-full md:w-2/3 min-h-[60px]">
               <span
                 className="rounded-l p-3 text-center leading-10 mr-1 bg-orange-500 w-[60%] text-white"
-                >40%</span
-              >
+                >40%</span>
               <span
                 className="text-center p-3 leading-10 mr-1 bg-orange-300 w-[25%] text-black"
-                >35%</span
-              >
+                >35%</span>
               <span
                 className="text-center p-3 leading-10 mr-1 bg-gray-300 w-[10%] text-black"
-                >25%</span
-              >
+                >25%</span>
              
               <span
                 className="rounded-r p-3 text-center leading-10 mr-1 bg-gray-500 w-[2%] text-white"
@@ -102,16 +96,13 @@ export default function Skill(){
             <div className="flex w-full md:w-2/3 min-h-[60px]">
               <span
                 className="rounded-l p-3 text-center leading-10 mr-1 bg-gray-300 w-[40%] text-black"
-                >40%</span
-              >
+                >40%</span>
               <span
                 className="text-center p-3 leading-10 mr-1 bg-gray-400 w-[35%] text-white"
-                >35%</span
-              >
+                >35%</span>
               <span
                 className="rounded-r p-3 text-center leading-10 mr-1 bg-gray-500 w-[25%] text-white"
-                >25%</span
-              >
+                >25%</span>
             </div>
           </div>
           <div className="flex flex-col md:flex-row items-center">
@@ -121,16 +112,13 @@ export default function Skill(){
             <div className="flex w-full md:w-2/3 min-h-[60px]">
               <span
                 className="rounded-l p-3 text-center leading-10 mr-1 bg-orange-300 w-[50%] text-black"
-                >40%</span
-              >
+                >40%</span>
               <span
                 className="text-center p-3 leading-10 mr-1 bg-gray-300 w-[30%] text-black"
-                >30%</span
-              >
+                >30%</span>
               <span
                 className="text-center p-3 leading-10 mr-1 bg-gray-400 w-[10%] text-white"
-                >30%</span
-              >
+                >30%</span>
               <span
                 className="rounded-r p-3 text-center leading-10 mr-1 bg-gray-500 w-[2%] text-white"
               ></span>
@@ -146,6 +134,6 @@ export default function Skill(){
       </div>
     </section>
         </div>
-        </>
+        
     )
 }
