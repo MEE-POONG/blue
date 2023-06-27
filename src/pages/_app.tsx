@@ -6,6 +6,8 @@ import { useRouter } from "next/router";
 import { useEffect } from "react";
 //import { SSRProvider } from "react-bootstrap";
 import '../../assets/scss/globals.css'
+import Navbar from '../../components/nav';
+
 
 export default function App({ Component, pageProps }: AppProps) {
 

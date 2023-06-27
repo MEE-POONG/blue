@@ -11,11 +11,11 @@ export default class SimpleSlider extends Component {
       slidesToScroll: 1
     };
     return (
-      <div className="text-center px-5 text-white ">
-        <h2 className="    ">Today is..</h2>
+      <div className="text-center px-5  text-white">
+        <h2 className="  text-4xl lg:text-6xl mb-10 text-black ">Today is..</h2>
         <Slider {...settings}>
           
-         <div className=" text-[22px] ">
+         <div className=" text-[22px] mb-10 text-white ">
             <h3>&ldquo;วันนี้วันเสาร์&ldquo;</h3>
           </div>
           <div>
